@@ -4,8 +4,7 @@ on:
  pull_request:
   types:
    - opened
-  branches:
-   - master
+  
 jobs:
  echo-triggers:
   runs-on: windows-latest
