@@ -1,7 +1,9 @@
 name: Triggers
 
 on:
- pull_request
+ pull_request:
+  branches:
+      - master
 jobs:
  echo-triggers:
   runs-on: windows-latest
