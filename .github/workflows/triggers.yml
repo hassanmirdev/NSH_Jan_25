@@ -1,7 +1,7 @@
 name: Triggers
 
 on:
- issues:
+ workflow_dispatch:
 jobs:
  echo-triggers:
   runs-on: windows-latest
