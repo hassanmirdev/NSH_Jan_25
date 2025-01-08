@@ -7,4 +7,5 @@ jobs:
   runs-on: windows-latest
   steps: 
    - name: Window platform
+     shell: bash
      run: echo "Windows platform"
