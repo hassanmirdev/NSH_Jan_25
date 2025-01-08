@@ -2,6 +2,7 @@ name: Manaul trigger issue
 
 on:
  push:
+ workflow_dispatch:
 jobs:
  echo-triggers:
   runs-on: unbuntu-latest
