@@ -1,0 +1,10 @@
+name: Manaul trigger issue
+
+on:
+ workflow_dispatch:
+jobs:
+ echo-triggers:
+  runs-on: unbuntu-latest
+  steps: 
+   - name: unbuntu 
+     run: echo "unbuntu platform"
