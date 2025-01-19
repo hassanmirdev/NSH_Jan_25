@@ -5,7 +5,7 @@ on:
  workflow_dispatch:
 jobs:
  echo-triggers:
-  runs-on: unbuntu-latest
+  runs-on: ubuntu-latest
   steps: 
-   - name: unbuntu 
+   - name: ubuntu 
      run: echo "unbuntu platform"
